@@ -1,5 +1,8 @@
 # Testing with React Testing Library queries helps make apps more accessible
 
+Date: Sep 14, 2020
+Tags: React, Testing
+
 Unlike Enzyme where finding an element is typically done using css queries for say the class, id, or element type, using React Testing Library's built in querying methods limits the ways elements can be found. `getByLabelText()` is particularly helpful to ensure form elements are properly labeled.
 
 ```jsx
